@@ -1,0 +1,70 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  background: rgb(216, 216, 216);
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+button {
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color:chartreuse;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+
+}
+
+button:hover {
+  background-color: #27a607;}
+
+main {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.header-footer {
+  height: 80px;
+  border-bottom: solid rgb(184, 184, 184);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: #f9f2f2;
+  border-top: solid rgb(184, 184, 184);
+}
+.li_H_F {
+  padding: 10px;
+  list-style-type: none;
+}
+.ul_H_F {
+  display: flex;
+  flex-direction: row;
+}
+#words {
+  text-align: center;
+}
+#about_guitars{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  max-width: 300px;
+  max-height: 400px;
+  object-fit: contain;
+}
